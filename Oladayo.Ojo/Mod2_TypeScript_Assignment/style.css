@@ -1,0 +1,72 @@
+
+
+main>h2{
+    background-color: rgb(34, 17, 183);
+    text-align: center;
+    color: white;
+}
+
+
+.myPage{
+    width: 700px;
+    border: 5px solid rgb(130, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+}
+.header{
+    padding: 10px;
+    height: 100px;
+    background-color: rgb(34, 17, 183);
+    text-align: center;
+    color: white;
+}
+h2{
+    margin: 0%;
+    font-size: 32px;
+}
+#myInput{
+    margin: 15px 0px;
+    width: 400px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+ #addbtn, #apiTodos{
+    padding: 11px 30px;
+    background-color: rgb(40, 40, 49);
+    cursor: pointer;
+}
+
+
+li > .delete{
+    padding: 5px 10px;
+    float:right;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(79, 79, 80);
+    cursor: pointer;
+    
+}
+
+#myUl > li{
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 5px 5px;
+    list-style-type: none;
+    transition: 100ms;
+}
+
+#myUl > li:hover{
+    background: rgba(199, 198, 198, 0.739);
+}
+
+/* li.checked{
+    text-decoration: line-through;
+} */
+
+li > input {
+    float:left;
+    
+  }
